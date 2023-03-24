@@ -1,0 +1,159 @@
+/* WRAPPER */
+.main-wrapper {
+  width: 100vw;
+}
+
+/* NAVIGASI BAR */
+
+.navbar {
+  width: 100vw;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.navbar-wrapper {
+  width: 100vw;
+  height: 96px;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-link {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.navbar-link li:hover {
+  color: #cece00;
+  font-weight: 600;
+}
+
+.logo-kiri {
+  font-weight: 700;
+  font-size: 24px;
+  user-select: none;
+}
+
+.logo-kanan {
+  font-weight: 700;
+  color: #cece00;
+  font-size: 24px;
+  user-select: none;
+}
+
+.active {
+  text-decoration: underline;
+  font-weight: bold;
+  text-decoration-color: #cece00;
+}
+
+/* PROFILE */
+.wrapper-profile {
+  width: 100vw;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.wrapper-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 65px 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile-description {
+  max-width: 576px;
+  font-size: 24px;
+}
+
+.profile-welcome {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.content-kanan img {
+  border-radius: 60px 60px 0 0;
+  margin-left: 150px;
+}
+
+.button-get-started {
+  background-color: #cece00;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  width: 139px;
+  height: 45px;
+  border-radius: 8px;
+}
+
+/* PROFILE SLIDE 2 */
+.wrapper-profile2 {
+  width: 100vw;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.wrapper-content2 {
+  width: 100vw;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 65px 0;
+  background-color: whitesmoke;
+}
+
+.wrapper-content2 h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.wrapper-content2 p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.wrapper-image {
+  display: flex;
+  gap: 60px;
+}
+
+.wrapper-image img {
+  border-radius: 30%;
+}
+
+
+
+/* FOOTER */
+footer {
+  background-color: #1e1e1e;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+footer p {
+  max-width: 1024px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 700;
+}

@@ -1,0 +1,141 @@
+/* WRAPPER */
+.main-wrapper {
+  width: 100vw;
+}
+
+/* NAVIGASI BAR */
+
+.navbar {
+  width: 100vw;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.navbar-wrapper {
+  width: 100vw;
+  height: 96px;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-link {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.navbar-link li:hover {
+  color: #cece00;
+  font-weight: 600;
+}
+
+.logo-kiri {
+  font-weight: 700;
+  font-size: 24px;
+  user-select: none;
+}
+
+.logo-kanan {
+  font-weight: 700;
+  color: #cece00;
+  font-size: 24px;
+  user-select: none;
+}
+
+.active {
+  text-decoration: underline;
+  font-weight: bold;
+  text-decoration-color: #cece00;
+}
+
+/* PROFILE */
+.wrapper-profile {
+  width: 100vw;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.wrapper-content {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 68px;
+}
+
+.wrapper-content h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.wrapper-content h1 span {
+  font-size: 36px;
+  font-weight: 700;
+  color: #f3f329;
+}
+
+/* GAMBAR PROJECT */
+.wrapper-profile2 {
+  width: 100vw;
+  background-color: #1e1e1e;
+  color: black;
+}
+
+.wrapper-content2 {
+  width: 100vw;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1e1e1e;
+}
+
+.wrapper-image {
+  display: flex;
+  gap: 100px;
+}
+
+.wrapper-image img {
+  border-radius: 30%;
+  width: 200px;
+  height: 200px;
+}
+
+.content-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.content-image h1 {
+  font-size: 24px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1e1e1e;
+  width: 1440px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+footer p {
+  max-width: 1024px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 700;
+}
