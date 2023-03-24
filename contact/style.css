@@ -141,6 +141,20 @@ form {
   padding: 50px 0;
 }
 
+button {
+  background-color: #cece00;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  padding: 10px 25px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #f3f329;
+  cursor: pointer;
+}
+
 .wrapper-form {
   max-width: 557px;
   width: 100%;

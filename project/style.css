@@ -113,12 +113,6 @@
   gap: 100px;
 }
 
-.wrapper-image img {
-  border-radius: 30%;
-  width: 200px;
-  height: 200px;
-}
-
 .content-image {
   display: flex;
   flex-direction: column;
