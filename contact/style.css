@@ -33,7 +33,12 @@
   font-size: 20px;
 }
 
-.navbar-link li:hover {
+.navbar-link li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-link li a:hover {
   color: #cece00;
   font-weight: 600;
 }
